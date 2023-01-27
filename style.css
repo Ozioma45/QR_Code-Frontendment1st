@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/blue.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    box-shadow: 2px 2px 20px rgba(0, 0, 255, 0.404);
+}
+
+.inner-container{
+    width: 20rem;
+    height: 30rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 30px;
+}
+
+.img-container{
+    width: 100%;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container{
+    font-family: outfit;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.head-text{
+    font-family: outfit;
+    font-weight: 700;
+    font-size: 120%;
+}
+
+.sub-text{
+    padding-top: 1rem;
+    color: hsl(220, 15%, 55%);
+    font-weight: 200;
+    font-size: 100%;
+}
+
+.img{
+    width: 90%;
+    height: 200px;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .inner-container{
+        width: 20rem;
+        height: 80%;
+    }
+  }
+
